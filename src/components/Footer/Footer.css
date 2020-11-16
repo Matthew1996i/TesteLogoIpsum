@@ -1,0 +1,249 @@
+@font-face {
+  font-family: Averta;
+  src: url(../../assets/fonts/AvertaDemo/AvertaDemoPE-Regular.otf);
+}
+
+.contentFooter {
+  display: flex;
+  flex-direction: column;
+  font-family: "Averta";
+}
+
+.footerForms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 23rem;
+  background-color: #03257e;
+  color: #fff;
+}
+
+.footerForms p {
+  font-size: 14px;
+  margin-right: -20%;
+  width: 20rem;
+}
+
+.divForms form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.divForms form div {
+  margin-right: 20px;
+}
+
+.divForms form label {
+  font-size: 10px;
+}
+
+.divForms form input {
+  font-size: 12px;
+  background-color: #03257e !important;
+  border-radius: 0 !important;
+  color: #fff !important;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.divForms form button {
+  border-radius: 80px;
+  height: 20%;
+  margin-top: 2%;
+}
+
+.backgroundMontain {
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+
+.mainFooter {
+  background-color: #012765;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  padding: 3rem 20rem;
+  justify-content: space-between;
+  font-size: 12px;
+  font-family: "Averta";
+}
+
+.mainFooter .content-theme {
+  width: 33.33%;
+  padding: 2rem;
+}
+
+.mainFooter .about ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.mainFooter .about ul li {
+  margin-bottom: 1rem;
+}
+
+.mainFooter .about ul li p {
+  margin-bottom: 0px;
+}
+
+.mainFooter .about ul li img {
+  height: 7rem;
+}
+
+.mainFooter .about ul li a {
+  color: #56ccf2;
+}
+
+.mainFooter .about ul li p.cnpj {
+  color: #8aa6d5;
+}
+
+.mainFooter .contactUs {
+  display: flex;
+  flex-direction: column;
+  color: #56ccf2;
+}
+
+.mainFooter .contactUs h6 {
+  font-size: 0.7rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.mainFooter .contactUs .contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainFooter .contactUs .contacts .info-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 13px;
+  color: #56ccf2;
+}
+
+.mainFooter .contactUs .contacts .phones i {
+  margin-top: 4px;
+}
+
+.mainFooter .contactUs .contacts .email {
+  align-items: center;
+}
+
+.mainFooter .contactUs .contacts .calledUs {
+  margin-left: 22px;
+}
+
+.mainFooter .contactUs .contacts .info-contact p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-left: 10px;
+}
+
+.mainFooter .contactUs .contacts .phones svg {
+  margin-right: 10%;
+}
+
+.mainFooter .contactUs .beAReseller {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #56ccf2;
+  padding: 30px 50px 30px 30px;
+}
+
+.mainFooter .contactUs .beAReseller p b {
+  color: #fff;
+}
+
+.mainFooter .contactUs .beAReseller button {
+  background-color: #56ccf2;
+  color: #03257e;
+  border-radius: 30px;
+  font-size: 10pt;
+  margin-top: 10px;
+  font-weight: 900;
+  width: 75%;
+  height: 2.5rem;
+}
+
+.mainFooter .anotherThinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainFooter .anotherThinks div h6 {
+  font-size: 0.7rem;
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.mainFooter .anotherThinks .follow {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainFooter .anotherThinks .follow .socialMedia {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.mainFooter .anotherThinks .follow .socialMedia a {
+  margin-right: 1rem;
+  font-size: 15pt;
+}
+
+.mainFooter .anotherThinks .paymentsMethods {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.mainFooter .anotherThinks .paymentsMethods .paymentsImages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.mainFooter .anotherThinks .paymentsMethods .paymentsImages img {
+  margin: 6px;
+}
+
+.mainFooter .sustentability {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.mainFooter .sustentability .sustentabilityImages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.mainFooter .sustentability .sustentabilityImages img {
+  background-color: #fff;
+  width: 40%;
+  margin: 5px;
+  padding: 2px 7px;
+  border-radius: 5px;
+}
+
+.copyFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #002053;
+}
+
+.copyFooter img {
+  padding: 1.8rem;
+}

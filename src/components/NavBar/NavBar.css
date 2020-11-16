@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@font-face {
+  font-family: Averta;
+  src: url(../../assets/fonts/AvertaDemo/AvertaDemoPE-Regular.otf);
+}
+
+.imgLogo {
+  height: 60px;
+  margin-right: 177px;
+}
+
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+
+.navbar-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center !important;
+  align-items: center;
+  padding: 0.9rem 1rem !important;
+  flex-wrap: wrap;
+  width: 100%;
+  transition: 0.2s ease-in;
+}
+
+.navbar-div-with-submenu {
+  background-color: #fff !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center !important;
+  align-items: center;
+  padding: 0.9rem 1rem !important;
+  flex-wrap: wrap;
+  width: 100%;
+  transition: 0.2s ease-in;
+}
+
+.navbar-nav {
+  flex-wrap: wrap;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  padding: 0 !important;
+}
+
+.navbar .navbar-nav a,
+.navbar .navbar-div a {
+  font-family: "PT Sans";
+  color: #fff;
+  margin-right: 1rem;
+  font-size: 16px;
+}
+
+#navbarDropdown {
+  border: 1px solid #818181 !important;
+  padding: 0.5rem 1.2rem;
+}
+
+#navbarDropdown i {
+  margin-left: 5px;
+  color: green;
+}
+
+#navbarDropdown::after {
+  display: none;
+}
+
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.281) !important;
+}
+
+.dropdown-menu a:hover {
+  color: black !important;
+}
+
+.buttonNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 202px;
+  height: 49px;
+  border-radius: 50px !important;
+  padding: 16px 26px;
+  font-family: "Averta";
+  font-weight: 700;
+  font-size: 14px;
+  color: #317caa !important;
+  margin-right: 177px;
+}

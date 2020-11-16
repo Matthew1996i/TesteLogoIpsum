@@ -1,0 +1,243 @@
+@font-face {
+  font-family: Averta;
+  src: url(../../assets/fonts/AvertaDemo/AvertaDemoPE-Regular.otf);
+}
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+.bodyHome {
+  background-color: #fbfbfb;
+}
+
+.highlightsHome {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+  background-color: #3286c3;
+  height: 18rem;
+  margin-top: -300px;
+  padding-top: 40px;
+}
+
+.highlightsHome h1 {
+  font-family: "Averta";
+  font-weight: 700;
+  margin-right: 60px;
+}
+
+.highlightsHome p {
+  font-family: "PT Sans";
+  color: #000;
+  margin-top: 20px;
+}
+
+.highlightsHome button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  background-color: #2e7bb2;
+  font-size: 16px;
+  width: 162px;
+  height: 138px;
+  line-height: 26px;
+  border-radius: 8px;
+  margin-left: 60px;
+}
+
+.highlightsHome button i {
+  color: #6cadd5;
+  height: 17.476356506347656px;
+  width: 10.410985946655273px;
+  left: 14.7987060546875px;
+  top: 11.25701904296875px;
+  border-radius: 0px;
+}
+
+.imagesFeatures {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -85px;
+}
+
+.imagesFeatures .primaryImages {
+  width: 319.6px;
+}
+
+.imagesFeatures .featured {
+  display: flex;
+  flex-direction: column;
+}
+
+.imagesFeatures .featured div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  background-color: #fff;
+}
+
+.imagesFeatures .featured div p {
+  font-size: 0.8rem;
+  font-family: "PT Sans";
+  color: #6a6a57;
+}
+
+.imagesFeatures .featured div img {
+  width: 90px;
+  height: 90px;
+  margin: -60px 20px 0px 0px;
+}
+
+.contentEnergy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.contentEnergy .leftAsideContent {
+  background-color: #fff;
+  padding: 50px 300px 50px 50px;
+  margin-left: -10px;
+}
+
+.contentEnergy .leftAsideContent h4 {
+  font-family: "Averta";
+  font-weight: bold;
+  line-height: 30px;
+  color: #ff5e0f;
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+}
+
+.contentEnergy .leftAsideContent p {
+  font-family: "PT Sans";
+  color: #4f4f40;
+  font-size: 0.8rem;
+}
+
+.contentEnergy .leftAsideContent button {
+  background-color: #ff5e0f;
+  color: #fff;
+  font-family: "Averta";
+  font-size: 0.9rem;
+  border-radius: 40px;
+  padding: 12px 30px;
+  margin-top: 20px;
+}
+
+.contentEnergy .triathlon i {
+  background-color: #ff5e0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  margin-left: -200px;
+  margin-top: 120px;
+  z-index: 2;
+}
+
+.contentEnergy .triathlon .imageAboveImage {
+  position: absolute;
+  height: 250px;
+  margin-left: -150px;
+  margin-top: 10px;
+  z-index: 1;
+}
+
+.contentEnergy .triathlon .triatlhonImg {
+  height: 350px;
+  margin-left: -160px;
+}
+
+.plusFiber {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.plusFiber img {
+  width: 50rem;
+  margin-left: -110px;
+}
+
+.plusFiber .aboutProduct {
+  margin-left: -100px;
+}
+
+.plusFiber .aboutProduct h1 {
+  font-size: 1.5rem;
+  font-family: "Averta";
+  font-weight: bold;
+  color: #ffbf3f;
+}
+
+.plusFiber .aboutProduct p {
+  font-size: 0.8rem;
+  font-family: "PT Sans";
+  color: #6a6a57;
+}
+
+.plusFiber .aboutProduct .btnBuyNow {
+  background-color: #ffbf3f;
+  color: #fff;
+  font-family: "Averta";
+  font-size: 0.9rem;
+  border-radius: 40px;
+  padding: 12px 30px;
+  margin-top: 20px;
+}
+
+.beOurPartner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2ee;
+  padding-top: 2rem;
+}
+
+.beOurPartner img {
+  width: 30rem;
+}
+
+.beOurPartner .contentOurPartner {
+  margin-right: 100px;
+}
+
+.beOurPartner .contentOurPartner h1 {
+  font-size: 1.5rem;
+  font-family: "Averta";
+  font-weight: bold;
+  color: #ff5e0f;
+}
+
+.beOurPartner .contentOurPartner p {
+  font-size: 0.8rem;
+  font-family: "PT Sans";
+  color: #6a6a57;
+}
+
+.beOurPartner .contentOurPartner .btnPartner {
+  background-color: #fff;
+  color: #ff5e0f;
+  font-family: "Averta";
+  font-size: 0.9rem;
+  border-radius: 40px;
+  padding: 12px 30px;
+  margin-top: 20px;
+}

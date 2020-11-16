@@ -1,0 +1,20 @@
+.mainHeader {
+  background-image: url("../../assets/images/thumb-1920-299834\ 1.jpg");
+  height: 1000px;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.mainHeader::before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    #050626 0%,
+    rgba(2, 2, 15, 0.381395) 21.83%,
+    rgba(0, 1, 4, 0.0988803) 45.62%,
+    rgba(0, 0, 0, 0) 57.12%
+  );
+}

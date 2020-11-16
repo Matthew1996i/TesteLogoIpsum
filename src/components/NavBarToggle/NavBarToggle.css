@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+.divFortheListProd {
+  border-top: 1px solid #cecece;
+  width: 100%;
+  margin: 0;
+  background-color: #fff;
+  display: none;
+  flex-direction: column;
+}
+
+.divFortheListProd .linkviewmore {
+  margin-top: 30px;
+  text-align: center;
+  font-family: "PT Sans";
+  color: #606395;
+  text-decoration: underline;
+}
+
+.toggleListProducts {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px 70px 0px;
+  flex-wrap: wrap;
+}
+
+.toggleListProducts li {
+  display: flex;
+  flex-direction: column;
+}
+
+.toggleListProducts li p {
+  font-family: "PT Sans";
+  text-align: center;
+  font-size: 14px;
+  color: #6a6a57;
+}
+
+.toggleListProducts img {
+  border: 1px solid rgb(173, 133, 0);
+  width: 109px;
+  height: 109px;
+  margin: 11px 8px;
+}
+
+.toggleListProducts img:hover {
+  border: 1px solid #606395;
+}

@@ -1,0 +1,116 @@
+@font-face {
+  font-family: Averta;
+  src: url(../../assets/fonts/AvertaDemo/AvertaDemoPE-Regular.otf);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel h1 {
+  font-size: 2rem;
+  font-family: "Averta";
+  font-weight: bolder;
+  color: #78be21;
+  text-align: center;
+}
+
+.carousel p {
+  font-size: 0.9rem;
+  text-align: center;
+  font-family: "PT Sans";
+  color: #6a6a6a;
+}
+
+.carousel .listSelectItem,
+.carousel .photosCarousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.carousel .listSelectItem li {
+  background-color: #fff;
+  list-style: none;
+  color: #78be21;
+  border: 1px solid #78be21;
+  border-radius: 20px;
+  padding: 4px 30px;
+  margin-right: 20px;
+  font-weight: bold;
+  font-family: "PT Sans";
+  font-size: 0.9rem;
+  box-shadow: 0px 5px 14px rgba(7, 206, 110, 0.34);
+  cursor: pointer;
+}
+
+.carousel .listSelectItem li i {
+  margin-right: 8px;
+}
+
+.carousel .photosCarousel li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.carousel .photosCarousel li img {
+  width: 250px;
+  height: 250px;
+}
+
+.carousel .photosCarousel li h2 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #78be21;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Averta";
+}
+
+.carousel .photosCarousel li p {
+  font-family: "PT Sans";
+  font-size: 0.78rem;
+  color: #6a6a57;
+}
+
+.carousel .buttonsControl {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.carousel button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #78be21;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+}
+
+.carousel .buttonsControl .prev {
+  margin: -250px 980px 0 0;
+}
+
+.carousel .buttonsControl .next {
+  margin-top: -250px;
+  margin-left: 35px;
+}
+
+.select {
+  color: #fff;
+  background-color: #78be21;
+}
+.noSelect {
+  color: #78be21;
+  background-color: #fff;
+}
